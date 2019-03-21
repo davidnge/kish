@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+<body>
+	<div class="wrapper">
+		<section class="left">
+
+			<!-- profile image-->
+			<div class="profile-image">
+				<img id="profile-image" src="assets/images/face-front.jpg">
+				<div class="shadow"></div>
+			</div>
+			<div class="profile-intro">
+				<h1>I'm Michelle </br> Front-End Developer</h1>
+			</div>
+
+			<div class="contact">
+				<span><a href="">Get in Touch<i class="fas fa-envelope fa-lg"></i></a></span>
+				
+			</div>
+
+			<div class="icons">
+				<a href=""><img src="assets/images/icons/icon-linkedin.svg"></a>
+				<a href=""><img src="assets/images/icons/icon-twitch.svg"></a>
+				<a href=""><img src="assets/images/icons/icon-github.svg"></a>
+				<a href=""><img src="assets/images/icons/icon-skype.svg"></a>
+				<a href=""><img src="assets/images/icons/icon-twitter.svg"></a>
+			</div>
+			
+		</section>
+
+		<section></section>
+
+
+		<section class="right" onmouseenter="updateProfileImage()" onmouseleave="revertProfileImage()">
+
+				<!-- begin row, ecah row has three columns-->
+				<div class="row">
+					<h2 class="title title-about">About me</h2>
+					
+					<div class="about">
+
+							<p>I'm Michelle. A fictional character made for this demo, everything you read here is not real! In my free time, I like to design user interfaces, optimize website for maximum speed, and build high-quality mockup.</p>
+
+							<br>
+
+							<p>I'm also proficient in these web technologies:</p>
+
+							<ul>
+								<li>HTML 5</li>
+								<li>CSS 3</li>
+								<li>LESS</li>
+								<li>Javascript</li>
+								<li>JQuery</li>
+								<li>Bootstrap 3</li>
+								<li>GIT</li>
+								<li>Gulp</li>
+								
+							</ul>
+					</div>
+				</div> <!-- end row -->
+
+
+
+
+				<!-- begin row-->
+				<div class="row">
+					
+					<h2 class="title">Experience</h2>
+
+					<!-- details section is a 2 columns grid -->
+					<div class="details-section">
+
+						<div class="entry">
+							<h3 class="entry-title">Lead Front-End Developer</h3>
+							<span class="company">Commando Technologies</span>
+
+							<ul class="entry-description">
+								<li>Redesigned and dramatically simplified our user interface, while preserving all its functionality.</li>
+								<li>Used universal rendering to achieve top score in load-time performance.</li>
+								<li>Developed a vendor iOS/Android with React Native.</li>
+							</ul>
+							
+						</div>
+
+						<span class="year">2017 - Present</span>
+
+
+						<div class="entry">
+							<h3 class="entry-title">Junior Front-End Developer</h3>
+							<span class="company">Commando Technologies</span>
+
+							<ul class="entry-description">
+								<li>Communicate with clients and design UI/UX mockups.</li>
+								<li>Developed beautiful interfaces using Ember.js and Bulma.</li>
+								<li>Designed and developed point-of-sale website for bars and restaurants.</li>
+								<li>Developed a functional prototype for an education start-up.</li>
+							</ul>
+							
+						</div>
+
+						<span class="year">2014 - 2017</span>
+
+					</div>
+						
+				</div> <!-- end row -->
+
+
+
+				<!-- begin row -->
+				<div class="row">
+					<h2 class="title">Education</h2>
+
+					<!-- details section is a 2 columns grid -->
+					<div class="details-section">
+						
+						<div class="entry">
+							<h3 class="entry-title">Bachelor in Software Engineering</h3>
+							<span class="entry-description">Somerset University, Sometown, PA</span>
+						</div>
+						
+						<span class="year">2017</span>
+
+
+
+						<div class="entry">
+							<h3 >Microsoft Certified Professional Developer</h3>
+							<span>Microsoft HQ</span>
+						</div>
+
+						<span class="year">2015</span>
+
+					</div>
+				</div> <!-- end row -->
+
+				
+
+
+			
+		</section>
+	</div>
+	<script type="text/javascript">
+		function updateProfileImage(){
+			document.getElementById("profile-image").src = "assets/images/face-right.jpg";
+		}
+
+		function revertProfileImage(){
+			document.getElementById("profile-image").src = "assets/images/face-front.jpg";
+		}
+
+	</script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>

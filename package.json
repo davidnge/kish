@@ -1,0 +1,13 @@
+{
+  "name": "",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js' --directory --port 7777 --browser 'chrome'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "*"
+  }
+}
