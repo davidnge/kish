@@ -1,11 +1,11 @@
 {
-  "name": "",
+  "name": "Kish",
   "version": "0.0.1",
-  "description": "",
+  "description": "One page html template to showcase your developer CV in a professional way",
   "scripts": {
     "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js' --directory --port 7777 --browser 'chrome'"
   },
-  "author": "",
+  "author": "David Nge",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "*"
