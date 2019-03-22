@@ -28,8 +28,3 @@ Icons: [https://www.flaticon.com/](https://www.flaticon.com/) licensed by CC 3.0
 Vector profile Image: [www.vecteezy.com](www.vecteezy.com)
 
 
-
-
-
-
-
