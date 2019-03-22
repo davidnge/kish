@@ -1,6 +1,6 @@
 # kish
 
-[Live Demo](https://kish-ivj9hf741.now.sh/)
+[Live Demo](https://kish-ogrhu6gh8.now.sh/)
 
 Kish is a one page mobile responsive html template to showcase your developer CV in a professional way.
 
