@@ -2,7 +2,7 @@
 
 [Live Demo](https://kish-ivj9hf741.now.sh/)
 
-Kish is a one page html template to showcase your developer CV in a professional way.
+Kish is a one page mobile responsive html template to showcase your developer CV in a professional way.
 
 Designed by Vitali Senevych and Vasyl Kish. You can learn the details of the design process [here](https://www.behance.net/gallery/54409055/Kish-Personal-Site).
 
